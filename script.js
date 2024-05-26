@@ -1,6 +1,6 @@
-let timerClock = null;
-let start = document.getElementById('start');
-let timerId = document.getElementById('pomodoro-time');
+const timerClock = null;
+const start = document.getElementById('start');
+const timerId = document.getElementById('pomodoro-time');
 
 function timer() {
     start.addEventListener('click', function () {
